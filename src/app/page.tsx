@@ -6,11 +6,11 @@ import { ArrowLeft, ExternalLink, Circle } from 'lucide-react';
 const PROJECTS = [
   {
     id: "project-one",
-    title: "Claude Preferences Builder",
-    status: "Free",
-    description: "Work through 6 stages and get a personalised set of Claude preferences — tailored to how you think, work, and communicate.",
-    github: "#",
-    website: "#",
+    title: "K-Pop Demon Hunters Star Chart",
+    status: "NEW",
+    description: "Fun project built with my six year to inspire the next generation to get creative with AI.",
+    github: "https://github.com/JennaCohen1/kpop-stargazer",
+    website: "https://kpop-star-chart.vercel.app/",
     pitch: "[Insert project pitch here]",
     concept: "[Insert detailed concept write-up here]",
     guide: "[Insert user guide here]"
