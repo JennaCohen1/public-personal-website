@@ -57,7 +57,7 @@ export default function App() {
 
       {/* Hero */}
       <main className="max-w-2xl mx-auto px-6 pt-24 pb-16 text-center">
-        <p className="text-[11px] font-bold uppercase tracking-[0.3em] opacity-40 mb-6">AI Tools by Jenna Cohen</p>
+        <p className="text-[11px] font-bold uppercase tracking-[0.3em] opacity-40 mb-6">Building in Public to Inspire Others</p>
         <h1 className="text-5xl md:text-6xl font-serif tracking-tight leading-tight mb-2">
           Jenna Cohen
         </h1>
