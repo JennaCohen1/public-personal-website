@@ -8,7 +8,7 @@ const PROJECTS = [
     id: "project-one",
     title: "K-Pop Demon Hunters Star Chart",
     status: "NEW",
-    description: "Fun project built with my six year to inspire the next generation to get creative with AI.",
+    description: "Fun project built with my six year old.",
     github: "https://github.com/JennaCohen1/kpop-stargazer",
     website: "https://kpop-star-chart.vercel.app/",
     pitch: "[Insert project pitch here]",
@@ -66,7 +66,7 @@ export default function App() {
         </h2>
         <div className="w-8 h-[2px] bg-black/10 mx-auto mb-8"></div>
         <p className="text-lg opacity-50 max-w-md mx-auto leading-relaxed">
-          I build free tools that help you stop wrestling with AI and start getting answers you can actually use.
+          Showcase for a few of the projects I have built with AI.
         </p>
       </main>
 
