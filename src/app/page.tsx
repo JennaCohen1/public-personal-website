@@ -66,7 +66,7 @@ export default function App() {
         </h2>
         <div className="w-8 h-[2px] bg-black/10 mx-auto mb-8"></div>
         <p className="text-lg opacity-50 max-w-md mx-auto leading-relaxed">
-          Showcase for a few of the projects I have built with AI.
+          Showcasing a few of the projects that I have built with AI.
         </p>
       </main>
 
