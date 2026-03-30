@@ -41,9 +41,9 @@ export default function App() {
         </header>
         <section className="space-y-12">
           {active.image && (
-            <div className="rounded-2xl overflow-hidden border border-black/5">
+            <a href={active.website} className="block rounded-2xl overflow-hidden border border-black/5 hover:border-black/15 transition-all">
               <img src={active.image} alt={`${active.title} preview`} className="w-full" />
-            </div>
+            </a>
           )}
           <div className="bg-white/40 p-8 rounded-2xl border border-black/5"><p className="text-xl font-serif opacity-80">&ldquo;{active.pitch}&rdquo;</p></div>
           <div className="space-y-4"><h3 className="text-[10px] font-bold uppercase tracking-[0.2em] opacity-30">Concept</h3><p className="text-lg opacity-70">{active.concept}</p></div>
