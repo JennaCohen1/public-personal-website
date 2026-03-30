@@ -11,6 +11,7 @@ const PROJECTS = [
     description: "Fun project built with my six year old.",
     github: "https://github.com/JennaCohen1/kpop-stargazer",
     website: "https://kpop-star-chart.vercel.app/",
+    image: "", // Add a screenshot URL here, e.g. "/kpop-preview.png"
     pitch: "[Insert project pitch here]",
     concept: "[Insert detailed concept write-up here]",
     guide: "[Insert user guide here]"
@@ -33,12 +34,17 @@ export default function App() {
             <span className="opacity-30 uppercase tracking-widest text-[10px] font-bold">Status</span>
             <span className="flex items-center gap-2"><Circle size={8} className="fill-green-500 text-green-500" />{active.status}</span>
             <span className="opacity-30 uppercase tracking-widest text-[10px] font-bold">GitHub</span>
-            <a href={active.github} className="underline decoration-black/10 hover:decoration-black">Source Code</a>
+            <a href={active.github} className="underline decoration-black/10 hover:decoration-black break-all">{active.github.replace('https://', '')} <ExternalLink className="inline" size={12} /></a>
             <span className="opacity-30 uppercase tracking-widest text-[10px] font-bold">Website</span>
-            <a href={active.website} className="underline decoration-black/10 hover:decoration-black">Live Link <ExternalLink className="inline" size={12} /></a>
+            <a href={active.website} className="underline decoration-black/10 hover:decoration-black break-all">{active.website.replace('https://', '').replace(/\/$/, '')} <ExternalLink className="inline" size={12} /></a>
           </div>
         </header>
         <section className="space-y-12">
+          {active.image && (
+            <div className="rounded-2xl overflow-hidden border border-black/5">
+              <img src={active.image} alt={`${active.title} preview`} className="w-full" />
+            </div>
+          )}
           <div className="bg-white/40 p-8 rounded-2xl border border-black/5"><p className="text-xl font-serif opacity-80">&ldquo;{active.pitch}&rdquo;</p></div>
           <div className="space-y-4"><h3 className="text-[10px] font-bold uppercase tracking-[0.2em] opacity-30">Concept</h3><p className="text-lg opacity-70">{active.concept}</p></div>
           <div className="space-y-4"><h3 className="text-[10px] font-bold uppercase tracking-[0.2em] opacity-30">Guide</h3><p className="text-lg opacity-70">{active.guide}</p></div>
