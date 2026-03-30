@@ -24,9 +24,9 @@ const PROJECTS = [
     github: "https://github.com/JennaCohen1/kpop-stargazer",
     website: "https://kpop-star-chart.vercel.app/",
     image: "/kpop-preview.png",
-    pitch: "[Insert project pitch here]",
-    concept: "[Insert detailed concept write-up here]",
-    guide: "[Insert user guide here]"
+    pitch: "A K-Pop themed star chart built with my six year old — because every demon hunter deserves a reward system.",
+    concept: "A weekly star chart app with a K-Pop Demon Hunters theme. Kids earn stars for completing tasks, and the chart resets automatically every week. Everything — the child's name, tasks, and star goals — is fully editable in settings. Designed to live on your home screen and work offline, with all data saved locally on the device.",
+    guide: "Open the app and tap Settings to set up your child's name and tasks. Tap a task to award a star. The chart resets every week automatically. Add to your home screen for quick access — all progress is saved locally so it works without internet."
   }
 ];
 
