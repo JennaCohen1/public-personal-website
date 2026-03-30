@@ -11,7 +11,7 @@ const PROJECTS = [
     description: "Fun project built with my six year old.",
     github: "https://github.com/JennaCohen1/kpop-stargazer",
     website: "https://kpop-star-chart.vercel.app/",
-    image: "", // Add a screenshot URL here, e.g. "/kpop-preview.png"
+    image: "/kpop-preview.png",
     pitch: "[Insert project pitch here]",
     concept: "[Insert detailed concept write-up here]",
     guide: "[Insert user guide here]"
