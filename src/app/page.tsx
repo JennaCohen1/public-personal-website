@@ -68,10 +68,10 @@ export default function App() {
         <h1 className="text-5xl md:text-6xl font-serif tracking-tight leading-tight mb-2">
           Jenna Cohen
         </h1>
-        <h2 className="text-4xl md:text-5xl font-serif tracking-tight text-[#9AABA8] mb-8">
+        <h2 className="text-4xl md:text-5xl font-serif tracking-tight text-[#9AABA8] mb-4">
           My Personal Portfolio
         </h2>
-        <div className="w-8 h-[2px] bg-black/10 mx-auto mb-8"></div>
+        <div className="w-8 h-[2px] bg-black/10 mx-auto mb-4"></div>
         <p className="text-lg opacity-50 max-w-md mx-auto leading-relaxed">
           Showcasing a few of the projects that I have built with AI.
         </p>
