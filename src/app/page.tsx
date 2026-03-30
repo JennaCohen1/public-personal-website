@@ -11,7 +11,7 @@ const PROJECTS = [
     description: "Pac-Man, but every dot is a real win on my path from VP to Engineer.",
     github: "https://github.com/JennaCohen1/Jenna-Man",
     website: "https://jenna-man.vercel.app/",
-    image: "/Jenna-man-preview.png",
+    image: "/Jenna.exe.png",
     pitch: "Pac-Man, but every dot is a real win on my path from VP to Engineer.",
     concept: "Claude built this game to celebrate the milestones I hit while learning to code — from 'git configured' to 'always checks the diff'. Each collectible in the maze represents a real achievement on my VP → Engineer journey. It's a love letter to progress, wrapped in retro arcade nostalgia.",
     guide: "Hit Start and navigate the maze — or let Auto-Play show you around. Every dot you eat surfaces a real achievement. Grab a power pellet to take down the ghosts. See how many wins you can collect."
